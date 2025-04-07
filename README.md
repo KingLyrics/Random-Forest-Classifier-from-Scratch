@@ -36,3 +36,24 @@ Contains: *6,321 samples/instances*  and has over *13 features*
 - **Class**: 
   - `0`: Normal bidding behavior  
   - `1`: Shill bidding or otherwise fraudulent behavior
+
+
+# Methodology
+- Selected and downloaded the correct dataset that meets the set requirements.
+- Imported the neccessary libraries:
+  - Numpy
+  - Pandas
+  - Sklearn (To get the train_test_split module)
+- Loaded in the dataset. 
+- Converted the dataset to a dataframe.
+- Taking a look at the dataset, it doesn't require to be encoded categorically as it is already done. 
+- Select the features to use for the classifier:
+  - X -> All features minus Record_ID, Auction_ID,	Bidder_ID and Class.
+  - y -> The target class.
+- Use the train_test_split:
+  - test_size: Proportion of the dataset to include in the test split.
+  - Outputs:
+    - X_train: Training feature data.
+    - X_test: Testing feature data.
+    - y_train: Training target data.
+    - y_test: Testing target data.
