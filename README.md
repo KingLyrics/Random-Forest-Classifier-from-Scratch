@@ -52,6 +52,7 @@ Contains: *6,321 samples/instances*  and has over *13 features*
   - y -> The target class.
 - Use the train_test_split:
   - test_size: Proportion of the dataset to include in the test split.
+  - random_state: It will produce the same splitting datasets.
   - Outputs:
     - X_train: Training feature data.
     - X_test: Testing feature data.
