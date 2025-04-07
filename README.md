@@ -3,6 +3,8 @@
 # Dataset OverView
 The *Shill Bidding Dataset* is for finding fradulent bidding behaviour in online auctions.
 
+Dataset Link: https://archive.ics.uci.edu/dataset/562/shill+bidding+dataset
+
 Contains: *6,321 samples/instances*  and has over *13 features*
 
 ## Dataset Field Descriptions
