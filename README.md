@@ -58,3 +58,4 @@ Contains: *6,321 samples/instances*  and has over *13 features*
     - X_test: Testing feature data.
     - y_train: Training target data.
     - y_test: Testing target data.
+- Implementd the gini forumla
