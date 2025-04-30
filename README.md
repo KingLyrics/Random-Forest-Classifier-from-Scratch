@@ -58,4 +58,7 @@ Contains: *6,321 samples/instances*  and has over *13 features*
     - X_test: Testing feature data.
     - y_train: Training target data.
     - y_test: Testing target data.
-- Implementd the gini forumla
+- Implemented the gini forumla function
+- Implemented the basic decision tree  funcition
+- Implemented the bootstrap function and oob_bs_sample function
+
