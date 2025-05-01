@@ -70,7 +70,7 @@ Contains: *6,321 samples/instances*  and has over *13 features*
   - Confusion Matrix
 
 
-### Evaluation for RandomForestClassifier Only
+### Evaluation for RandomForestClassifier from Sckit-learn Only
 - True Negative: 1130
 - False positive: 7
 - False Negative: 1
@@ -82,3 +82,8 @@ Contains: *6,321 samples/instances*  and has over *13 features*
 
 
 
+### Findings/Conculsions
+- I was unable to figure out the implementation for my own RandomForest Classifier from scracth.
+- Basing what I have off the scikit-learn implementation, it seems to have almost had a 100% accuracy.
+- So, if i had figured out the logic, I'm sure that my scores and results would have been much slower than it.
+- Computation time was nearly instantaneous.
