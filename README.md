@@ -61,4 +61,10 @@ Contains: *6,321 samples/instances*  and has over *13 features*
 - Implemented the gini forumla function
 - Implemented the basic decision tree  funcition
 - Implemented the bootstrap function and oob_bs_sample function
-
+Trained sklearn's RandomForestClassifier 
+- Implemented evaluation metrics:
+  - Accuracy
+  - Precision  
+  - Recall
+  - F1 Score
+  - Confusion Matri
